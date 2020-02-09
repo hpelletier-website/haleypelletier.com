@@ -1,0 +1,192 @@
+/* Reset styling */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "SignPainter";
+  src: url("assets/fonts/SignPainter.ttc");
+}
+@font-face {
+  font-family: "Orator";
+  src: url("assets/fonts/OratorStd.otf");
+}
+@font-face {
+  font-family: "Orator-Slanted";
+  src: url("assets/fonts/OratorStd-Slanted.otf");
+}
+
+body {
+  background-color: #166088;
+}
+a {
+  color: #f05d5e;
+  text-decoration: none;
+}
+
+/* Make SVG links work */
+a.svg {
+  display: inline-block;
+  cursor: pointer;
+}
+a.svg object {
+  pointer-events: none;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+#title-bar-container {
+  position: relative;
+  top: -6px;
+}
+#title-bar {
+  height: 140px;
+  position: absolute;
+  z-index: 1;
+}
+#title {
+  font-family: "SignPainter";
+  font-size: 60px;
+  color: #ebebeb;
+  text-decoration: none;
+  left: 30px;
+  top: 13px;
+  position: absolute;
+  z-index: 2;
+}
+#social-media {
+  left: 345px;
+  top: 27px;
+  position: absolute;
+  z-index: 2;
+}
+#social-media a {
+  margin: 0px 10px 0px 10px;
+}
+#sub-title {
+  color: #343434;
+  font-family: "Orator-Slanted";
+  font-size: 18px;
+  left: 25px;
+  top: 108px;
+  position: absolute;
+  z-index: 2;
+}
+.shadow {
+  -webkit-filter: drop-shadow(2px 2px 3px #333);
+  filter: drop-shadow(2px 2px 3px #333);
+}
+
+header {
+  background: #343434;
+  height: 134.5px;
+}
+header div {
+  background: #ebebeb;
+  position: relative;
+  top: 12px;
+  overflow: hidden;
+}
+nav {
+  position: relative;
+  left: 53%;
+}
+nav ul {
+  position: relative;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+nav li {
+  background: #ebebeb;
+  float: left;
+  position: relative;
+  -webkit-transform: skewX(-34.5deg);
+}
+nav ul li a {
+  display: block;
+  padding: 50px 30px 50px 30px;
+  color: #343434;
+  text-decoration: none;
+  font-family: "Orator";
+  font-size: 18px;
+}
+nav ul li a:hover {
+  color: #f05d5e;
+  cursor: pointer;
+}
+nav span {
+  display: block;
+  -webkit-transform: skewX(34.5deg);
+}
+.selected {
+  background: #343434;
+  color: #f05d5e;
+}
+
+.page {
+  position: relative;
+  top: 175px;
+  left: 15%;
+  height: 500px;
+  width: 70%;
+  background: #ebebeb;
+  /* display: none; */
+}
+.page .title {
+  position: absolute;
+  margin: 25px 25px 25px 50px;
+  color: #f05d5e;
+  font-family: "Orator";
+  font-size: 25px;
+}
+.page .border-left {
+  position: absolute;
+  float: left;
+  border-left: 20px solid #343434;
+  height: 100%;
+}
+.page .img-holder {
+  position: absolute;
+  float: left;
+  width: 15%;
+  margin: 100px 0px 0px 50px;
+}
+.page .about-blurb {
+  position: absolute;
+  top: 8%;
+  left: 24%;
+  width: 35%;
+  color: #343434;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.page .about-pic {
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.page .about-pic:hover {
+  cursor: pointer;
+}
+.page .profile-pic {
+  position: absolute;
+  left: 63%;
+  top: 11%;
+  height: 75%;
+  border: 5px solid #343434;
+}

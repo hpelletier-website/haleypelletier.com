@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Haley Pelletier</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+  <div class='header'>
+    <div id="title-bar-container">
+      <img id="title-bar" class="shadow" src="assets/img/title-bar.png"></img>
+      <a id="title" class="svg" onclick="reset()">Haley Pelletier</a>
+      <div id="social-media">
+        <!-- <a class="svg" target="_blank" href="https://www.instagram.com/..." ><object data="assets/svg/instagram.svg" type="image/svg+xml"></object></a> -->
+        <!-- <a class="svg" target="_blank" href="https://twitter.com/..."><object data="assets/svg/twitter.svg" type="image/svg+xml"></object></a> -->
+        <!-- <a class="svg" target="_blank" href="https://www.youtube.com/c/..."><object data="assets/svg/youtube.svg" type="image/svg+xml"></object></a> -->
+        <a class="svg" target="_blank" href="https://www.github.com/hpelletier"><object data="assets/svg/github.svg" type="image/svg+xml"></object></a>
+        <a class="svg" target="_blank" href="https://www.linkedin.com/in/haleypelletier"><object data="assets/svg/linkedin.svg" type="image/svg+xml"></object></a>
+      </div>
+      <div id="sub-title">Software Engineer | Amateur Wizard | Cat Enthusiast</div>
+    </div>
+    <header class="shadow">
+      <div>
+        <nav>
+          <ul>
+            <li><a class="about" onclick="selectPage(this)"><span>About</span></a></li>
+            <li><a class="projects" onclick="selectPage(this)"><span>Projects</span></a></li>
+            <li><a class="three" onclick="selectPage(this)"><span>Three</span></a></li>
+            <li><a class="four" onclick="selectPage(this)"><span>Four</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <div id="about" class="page shadow">
+    <span class="title">ABOUT</span>
+    <div class="img-holder">
+      <img class="about-pic" id="ns-img" onmouseover="highlight(this)" onmouseout="highlight(this,true)" src="assets/img/north_shore.png"/>
+            <img class="about-pic" id="oc-img" onmouseover="highlight(this)" onmouseout="highlight(this,true)" src="assets/img/olin_college.png"/>
+      <img class="about-pic" id="ch-img" onmouseover="highlight(this)" onmouseout="highlight(this,true)" src="assets/img/cloudhealth_logo.png"/>
+    </div>
+    <div class="about-blurb">
+      Hi! My name's Haley. I grew up near
+      <span id="ns-txt"><b>Salem, Massacusetts</b></span>
+      where I spent much of my early years honing my spellcasting abilities.
+      After realizing at the age of 18 that I had aged out of the Hogwarts
+      educational system, I decided to enroll at
+      <span id="oc-txt"><b>Olin College</b></span> in Needham. It was no
+      Hogwarts, but I did still get to play
+      <b><a target="_blank" href="http://poe.olin.edu/poe2014/knights">Wizard's Chess</a></b>.
+      After gradutating with a B.S. in Engineering: Computing in 2017, I moved
+      to the Boston area to work as a Software Engineer at
+      <span id="ch-txt"><b>CloudHealth by VMware</b></span>.
+      <br /><br />
+      <b>This website is a work in progress!</b> And it has been for years,
+      so I won't even tell you to come back soon...
+      <br /><br />
+      If you want to contact me, please feel free to do so at
+      <b><a href="mailto:haley@haleypelletier.com">haley@haleypelletier.com</a></b>
+      or at any of my social media links in the header above.
+    </div>
+    <div class="border-left"></div>
+    <img class="profile-pic" src="assets/img/my_face.jpg"/>
+  </div>
+
+  <div id="projects" class="page shadow">
+    <span class="title">PROJECTS</span>
+    <div class="about-blurb">
+      <a target="_blank" href="https://www.youtube.com/watch?v=Jd76Ii8JrZM&t=172s">
+        Archaea: The Hidden Domain of Life
+      </a>
+    </div>
+    <div class="border-left"></div>
+  </div>
+
+  <div id="three" class="page shadow">
+    <span class="title">THREE</span>
+    <div class="border-left"></div>
+  </div>
+
+  <div id="four" class="page shadow" stylee="margin-bottom:300px">
+    <span class="title">FOUR</span>
+    <div class="border-left"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

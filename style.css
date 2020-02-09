@@ -1,0 +1,124 @@
+/* Reset styling */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/*
+COLORS
+#3B444B
+#EBEBEB
+#66717E
+#CCA43B
+#0B0A07
+*/
+
+/* Fonts */
+@font-face {
+  font-family: "SignPainter";
+  src: url("assets/fonts/SignPainter.ttc");
+}
+@font-face {
+  font-family: "Orator";
+  src: url("assets/fonts/OratorStd.otf");
+}
+@font-face {
+  font-family: "Orator-Slanted";
+  src: url("assets/fonts/OratorStd-Slanted.otf");
+}
+
+body {
+  background-color: #3b444b;
+}
+img {
+  max-width:100%;
+  max-height:100%;
+}
+a.svg-link {
+  display: inline-block;
+  cursor: pointer;
+}
+a.svg-link object {
+  pointer-events: none;
+}
+
+/* Title */
+.title-container {
+  margin: 25px;
+  text-align: center;
+}
+.title {
+  font-family: "SignPainter";
+  font-size: 70px;
+  color: #ebebeb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Navigation */
+.nav-container {
+  margin: 25px;
+  text-align: center;
+}
+.nav-btn {
+  font-family: "Orator";
+  font-size: 25px;
+  color: #CCA43B;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-btn:hover, .navbtn:focus { color: #ebebeb;}
+.nav-drop-content {
+  font-family: "Orator";
+  font-size: 20px;
+  color: #ebebeb;
+  height: 500px;
+  margin: 20px 200px 20px 200px;
+  padding: 50px;
+  display: none;
+  background-color: #66717E;
+  text-align: left;
+}
+.nav-drop-content * {
+  float:left;
+}
+.nav-drop-content div {
+  margin-left: 50px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+.drop-img {
+  text-align: left;
+}
+.spacer {
+  font-family: "Orator";
+  font-size: 24px;
+  color: #ebebeb;
+  margin: 0px 10px 0px 10px;
+}
+.show { display: block; }
+
+/* Logos */
+.logo-container {
+  text-align: center;
+  background-color: #8A919A;
+}
+.logo-link {
+  width: 35%;
+  margin: 4% 6% 2% 6%;
+  float: left;
+}
+.logo {
+  width: 100%;
+}
+.here-link {
+  float: none;
+  text-decoration: none;
+  color: #CCA43B;
+}
+.here-link:hover, .here-link:focus { color: #ebebeb; }
