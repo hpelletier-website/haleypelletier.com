@@ -51,12 +51,12 @@ a.svg-link object {
 
 /* Title */
 .title-container {
-  margin: 25px;
+  margin: 1.5vw;
   text-align: center;
 }
 .title {
   font-family: "SignPainter";
-  font-size: 70px;
+  font-size: 4.5vw;
   color: #ebebeb;
   text-decoration: none;
   cursor: pointer;
@@ -64,12 +64,12 @@ a.svg-link object {
 
 /* Navigation */
 .nav-container {
-  margin: 25px;
+  margin: 1.75vw;
   text-align: center;
 }
 .nav-btn {
   font-family: "Orator";
-  font-size: 25px;
+  font-size: 1.5vw;
   color: rgb(219, 164, 93);
   text-decoration: none;
   cursor: pointer;
@@ -77,11 +77,11 @@ a.svg-link object {
 .nav-btn:hover, .navbtn:focus { color: #ebebeb;}
 .nav-drop-content {
   font-family: "Orator";
-  font-size: 20px;
+  font-size: 1.2vw;
   color: #ebebeb;
-  height: 500px;
-  margin: 3% 13% 2% 13%;
-  padding: 50px;
+  height: 30vw;
+  margin: 2% 13% 2% 13%;
+  padding: 3vw;
   display: none;
   background-color: rgba(102,113,126,0.45);
   text-align: left;
@@ -99,9 +99,9 @@ a.svg-link object {
 }
 .spacer {
   font-family: "Orator";
-  font-size: 24px;
+  font-size: 1.5vw;
   color: #ebebeb;
-  margin: 0px 10px 0px 10px;
+  margin: 0vw 0.75vw 0vw 0.75vw;
 }
 .show { display: block; }
 
