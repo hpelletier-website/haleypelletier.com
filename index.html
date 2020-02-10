@@ -25,58 +25,59 @@
   <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
-<body>
-  <div class='header'>
-    <div class="title-container">
-      <a class="title" class="svg" href="#">Haley Pelletier</a>
-    </div>
-    <div class="nav-container">
-      <button onclick="drop(this)" class="nav-btn" id="about-btn">About</button><a class="spacer">-</a>
-      <button onclick="drop(this)" class="nav-btn" id="games-btn">Games</button><a class="spacer">-</a>
-      <button onclick="drop(this)" class="nav-btn" id="resume-btn">Resume</button>
-      <div class="nav-drop-content" id="about-drop">
-        <img class="drop-img" src="assets/img/my_face.jpg"/>
-        <div>
-          Hey there! My name is Haley.
-        </div>
-        <div>
-          I was born and raised on the North Shore of Massachusetts.
-        </div>
-        <div>
-          After high school, I attended
-          <a class="here-link" target="_blank" href="http://www.olin.edu/">Olin College</a>
-          in Needham, MA. I got to work on a ton of amazing projects
-          while I was there, a couple of which you can check out
-          <a class="here-link" href="https://www.youtube.com/watch?v=Jd76Ii8JrZM">here</a> and
-          <a class="here-link" href="http://poe.olin.edu/poe2014/knights/">here</a>.
-          In the Spring of 2017, I graduated with a B.S. in Engineering: Computing.
-        </div>
-        <div>
-          Since then, I've been working as a software engineer at
-          <a class="here-link" target="_blank" href="https://www.cloudhealthtech.com/">CloudHealth</a>
-          in Boston. In 2018, we were acquired by
-          <a class="here-link" target="_blank" href="https://www.vmware.com/">VMware</a>.
-        </div>
-        <!-- <div class="logo-container">
-          <a class="logo-link" target="_blank" href="http://www.olin.edu/">
-            <img class="logo" src="assets/img/olin_college.png"/>
-          </a>
-          <a class="svg-link logo-link" target="_blank" href="https://www.cloudhealthtech.com/">
-            <object class="logo" data="assets/svg/ch-vm-logo.svg" type="image/svg+xml"></object>
-          </a>
-        </div> -->
-      </div>
-      <div class="nav-drop-content" id="games-drop">
-        In my spare time, I like to mess around with
-        <a class="here-link" target="_blank" href="https://www.pygame.org/news">PyGame</a>
-        -- check back soon to see what I've been working on.
-      </div>
-      <div class="nav-drop-content" id="resume-drop">
-        I'll post that here eventually... In the meantime, you can find me on
-        <a class="here-link" target="_blank" href="https://www.linkedin.com/in/haleypelletier">LinkedIn</a>,
-        though It's a little outdated.
+<body class="body">
+  <div class="title-container">
+    <button onclick=drop(this) class="title" id="about-btn">Haley Pelletier</a>
+  </div>
+
+  <div class="nav-container">
+    <!-- <button onclick="drop(this)" class="nav-btn" id="about-btn">About</button><a class="spacer">-</a> -->
+    <button onclick="drop(this)" class="nav-btn" id="work-btn">Work</button><a class="spacer">-</a>
+    <button onclick="drop(this)" class="nav-btn" id="music-btn">Music</button><a class="spacer">-</a>
+    <button onclick="drop(this)" class="nav-btn" id="social-btn">Contact</button>
+
+    <!-- ABOUT -->
+    <div class="nav-drop-content show" id="about-drop">
+      <img class="drop-img" src="assets/img/haley-avatar-1.png"/>
+      <div>
+        Hi there! My name is Haley.</br></br>
+
+        I'm a software engineer living and working in Boston, Massachusetts.
+        I grew up nearby on the North Shore.</br></br>
+
+        I graduated from
+        <a class="here-link" target="_blank" href="http://www.olin.edu/">Olin College</a>
+        with a B.S. in Computer Engineering in 2017.
+        While I was there, I got to work on a ton of cool projects including an
+        <a class="here-link" href="http://poe.olin.edu/poe2014/knights/">interactive intelligent chess board</a> and an
+        <a class="here-link" href="https://www.youtube.com/watch?v=Jd76Ii8JrZM">educational video about Archaea</a>.</br></br>
+
+        Since then, I've been working as a Member of Technical Staff at
+        <a class="here-link" target="_blank" href="https://www.cloudhealthtech.com/">CloudHealth by VMware</a>,
+        where I contribute to the development of their cloud management platform.
+        I recently became an
+        <a class="here-link" href="https://aws.amazon.com/certification/certified-cloud-practitioner/">AWS Certified Cloud Practitioner</a>.</br></br>
+
+        This website is still a work in progress and I hope to have more content up soon!
       </div>
     </div>
+
+    <!-- WORK -->
+    <div class="nav-drop-content" id="work-drop">
+      Eventually, I'll put my resume here.
+    </div>
+
+    <!-- MUSIC -->
+    <div class="nav-drop-content" id="music-drop">
+      Eventually, I'll put some of my music here.
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="nav-drop-content" id="social-drop">
+      Eventually, I'll put some other ways to contact me here. For now, try
+      <a class="here-link" href="mailto:haley@haleypelletier.com">haley@haleypelletier.com</a>.
+    </div>
+
   </div>
   <script src="main.js"></script>
 </body>

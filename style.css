@@ -34,6 +34,8 @@ COLORS
 
 body {
   background-color: #3b444b;
+  background-image: url('assets/img/background/space-background-1.jpg');
+  background-size: 100% auto;
 }
 img {
   max-width:100%;
@@ -68,7 +70,7 @@ a.svg-link object {
 .nav-btn {
   font-family: "Orator";
   font-size: 25px;
-  color: #CCA43B;
+  color: rgb(219, 164, 93);
   text-decoration: none;
   cursor: pointer;
 }
@@ -78,18 +80,18 @@ a.svg-link object {
   font-size: 20px;
   color: #ebebeb;
   height: 500px;
-  margin: 20px 200px 20px 200px;
+  margin: 3% 13% 2% 13%;
   padding: 50px;
   display: none;
-  background-color: #66717E;
+  background-color: rgba(102,113,126,0.45);
   text-align: left;
 }
 .nav-drop-content * {
   float:left;
 }
 .nav-drop-content div {
-  margin-left: 50px;
-  margin-bottom: 15px;
+  margin-left: 4%;
+  margin-top: 1%;
   width: 50%;
 }
 .drop-img {
@@ -106,7 +108,7 @@ a.svg-link object {
 /* Logos */
 .logo-container {
   text-align: center;
-  background-color: #8A919A;
+  background-color: rgba(255,255,255,0.7);
 }
 .logo-link {
   width: 35%;
@@ -119,6 +121,6 @@ a.svg-link object {
 .here-link {
   float: none;
   text-decoration: none;
-  color: #CCA43B;
+  color: rgb(219, 164, 93);
 }
 .here-link:hover, .here-link:focus { color: #ebebeb; }

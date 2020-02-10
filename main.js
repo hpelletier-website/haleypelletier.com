@@ -21,7 +21,9 @@ function close_all() {
 
 // close if user clicks outside of dropdown
 window.onclick = function(event) {
-  if (!event.target.matches('.nav-btn') && !event.target.matches('.nav-drop-content')) {
+  if (!event.target.matches('.title') &&
+      !event.target.matches('.nav-btn') &&
+      !event.target.matches('.nav-drop-content')) {
     close_all();
   }
 }
