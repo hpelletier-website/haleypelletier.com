@@ -23,7 +23,7 @@ function close_all() {
 window.onclick = function(event) {
   if (!event.target.matches('.title') &&
       !event.target.matches('.nav-btn') &&
-      !event.target.matches('.nav-drop-content')) {
+      !event.target.matches('.dont-close')) {
     close_all();
   }
 }
