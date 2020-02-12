@@ -56,12 +56,12 @@ a.svg-link object {
 
 /* Title */
 .title-container {
-  margin: 3vw 0vw 0vw 0vw;
+  margin: 2.5vw 0vw 0vw 0vw;
   text-align: center;
 }
 .title {
   font-family: "SignPainter";
-  font-size: 4.5vw;
+  font-size: 6vw;
   color: #ebebeb;
   text-decoration: none;
   cursor: pointer;
@@ -69,7 +69,7 @@ a.svg-link object {
 
 /* Navigation */
 .nav-container {
-  margin: 2vw 0vw 0vw 0vw;
+  margin: 2.5vw 0vw 0vw 0vw;
   text-align: center;
 }
 .nav-btn {
@@ -103,7 +103,7 @@ a.svg-link object {
 .nav-drop-content div {
   margin-left: 3vw;
   margin-top: 1vw;
-  width: 50%;
+  width: 35vw;
 }
 .drop-img {
   text-align: left;
